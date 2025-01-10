@@ -11,7 +11,6 @@ set -x
 
 mkdir analysis output
 touch README.md
-echo "# Project Name: DSI Consulting Inc." > README.md
 touch analysis/main.py
 
 # download client data
@@ -47,6 +46,7 @@ ls ./data/processed/event_logs >> ./data/inventory.txt
 
 #Doing it in one step using "find"
 find ./data/processed -type f > ./data/inventory.txt
+
 
 ###########################################
 
