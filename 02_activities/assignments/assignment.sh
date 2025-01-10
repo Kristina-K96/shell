@@ -44,10 +44,6 @@ ls ./data/processed/server_logs >> ./data/inventory.txt
 ls ./data/processed/user_logs >> ./data/inventory.txt
 ls ./data/processed/event_logs >> ./data/inventory.txt
 
-#Doing it in one step using "find"
-find ./data/processed -type f > ./data/inventory.txt
-
-
 ###########################################
 
 echo "Project setup is complete!"
